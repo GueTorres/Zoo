@@ -20,16 +20,22 @@ public class Animal implements Survivor, HealthIndex{
 		gender = 'u';
 	}
 	//overloaded constructor
-	public Animal(int nLegs, double BMI, double wt, double ht, String col, boolean hasF, char g){
+	public Animal(int nLegs, double wt, double ht, String col, boolean hasF, char g){
 		numLegs = nLegs;
 		weight = wt;
 		height = ht;
 		color = col;
 		hasFur = hasF;
 		gender = g;
-		BMI = wt/ht;
+		
 	}
 	//getters
+	public double getBMI() throws Exception {
+		if(weight == 0){
+			throw new Exception("can't calculate BMI weight is zero");
+		}
+		return height / (weight * weight);
+	}
 	public int getNumLegs() {
 		return numLegs;
 	}
