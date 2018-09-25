@@ -6,7 +6,7 @@ public class Dog extends Animal implements Protector{
 	private double tailLength;
 	private String eyeColor;
 	private double teethLength;
-	private String [] tricks; //add all the details as needed for homework
+	private String [] tricks = new String[5]; //add all the details as needed for homework
 	
 	//default constructor
 	public Dog(){
