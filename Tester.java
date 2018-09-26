@@ -8,3 +8,12 @@ public class Tester {
         arrTTT [0][1] = 'o';
         arrTTT [1][2] = 'x';
         System.out.println(" x wins!");
+
+  	
+	public static int [] getResized(int[] smArr){
+		int [] bigArr = new int [arrSm.length + 2];
+		for(int i = 0; i < arrSm.length; i++){
+			arrBig[i] = arrSM[i];
+		}
+		return arrBig;
+	}	
