@@ -18,11 +18,11 @@ public class Bird extends Animal {
 		}
 		//overloaded constructor
 		public Bird(double fL, boolean cF, boolean bS, boolean iE) {
-			super();
-			featherLength =  fL;
-			canFly = cF;
-			beakShape = bS;
-			isEdible = iE;
+		super();
+			fL = featherLength;
+			cF = canFly;
+			bS = beakShape;
+			iE = isEdible;
 		}
 	
 	public double getfeatherLength() {
