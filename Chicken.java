@@ -6,11 +6,11 @@ public class Chicken extends Bird {
 	public static final double MAX_HEIGHT = 26;
 	public static final double MAX_WEIGHT = 8.6;
 
-	public LapDog(){
+	public Chicken(){
 		super();
 	}
 
-	public LapDog(double ht, double wt){
+	public Chicken(double ht, double wt){
 		super();
 		setHeight(ht);
 		setWeight(wt);
