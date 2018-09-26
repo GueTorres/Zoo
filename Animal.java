@@ -1,14 +1,7 @@
 
 
 public class Animal implements Survivor, HealthIndex{
-	
-	public static int [] getResized(int[] smArr){
-		int [] bigArr = new int [arrSm.length + 2];
-		for(int i = 0; i < arrSm.length; i++){
-			arrBig[i] = arrSM[i];
-		]
-		return arrBig;
-	}	
+
 	
 	//instance variables
 	private int numLegs;
